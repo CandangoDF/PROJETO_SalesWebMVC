@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SalesWebMVC.Models;
+using System.Diagnostics;
 
 namespace SalesWebMVC.Controllers
 {
@@ -17,7 +13,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Salles web MVC App from C# Course";
+            ViewData["Message"] = "Sales web MVC App from C# Course";
             ViewData["Autor"] = "William Batista Pereira";
             
 
